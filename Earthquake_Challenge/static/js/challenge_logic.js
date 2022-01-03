@@ -146,8 +146,8 @@ let tectonicData = "https://raw.githubusercontent.com/fraxen/tectonicplates/mast
 
 let myStyle = {
   color: "#703606",
-  weight: 2} 
-  
+  weight: 2};
+    
 d3.json(tectonicData).then(function(data) {
   console.log(data);  
   L.geoJSON(data, {
