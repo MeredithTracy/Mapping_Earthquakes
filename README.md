@@ -1,1 +1,2 @@
-# Mapping_Earthquakes
+# Mapping Earthquakes
+Using JavaScript, Leaflet.js, D3, and geoJSON, I created a map with earthquake data in relation to tectonic plates' location. Using tectonic plates' data from ![this repository](https://github.com/fraxen/tectonicplates), I created a map wityh layers to show recorded earthquakes. Then, I dug further into the map to specify major earthquakes (greater than 4.5 magnitude) for the client to specify. Finally, I added stylized features using Mapbox styles. 
